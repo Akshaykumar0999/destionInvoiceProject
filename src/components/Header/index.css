@@ -1,0 +1,24 @@
+.header-card {
+    width: 100%;
+    background-color: #375158;
+    color: #ffffff;
+}
+.header-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.header-icon {
+    font-size: 25px;
+    margin: 0px 10px 10px 0px;
+}
+.header-routes-text {
+    font-weight: 500;
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.header-routes-text.active {
+    color: gold;
+    border-bottom: 2px solid gold;
+}

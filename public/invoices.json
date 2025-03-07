@@ -1,0 +1,134 @@
+{
+  "invoices": [
+    {
+      "id": 1,
+      "storeName": "SuperMart",
+      "orderId": "INV-001",
+      "date": "2025-03-06",
+      "items": [
+        {
+          "itemName": "Laptop",
+          "quantity": 2,
+          "regularPrice": 50000,
+          "dealPrice": 48000,
+          "itemTotal": 96000,
+          "itemTax": 5000
+        },
+        {
+          "itemName": "Mouse",
+          "quantity": 1,
+          "regularPrice": 2000,
+          "dealPrice": 1800,
+          "itemTotal": 1800,
+          "itemTax": 100
+        }
+      ],
+      "grandTotalWithoutTax": 97800,
+      "grandTotalWithTax": 102900
+    },
+    {
+      "id": 2,
+      "storeName": "ElectroHub",
+      "orderId": "INV-002",
+      "date": "2025-03-07",
+      "items": [
+        {
+          "itemName": "Smartphone",
+          "quantity": 3,
+          "regularPrice": 25000,
+          "dealPrice": 24000,
+          "itemTotal": 72000,
+          "itemTax": 3600
+        },
+        {
+          "itemName": "Headphones",
+          "quantity": 2,
+          "regularPrice": 5000,
+          "dealPrice": 4500,
+          "itemTotal": 9000,
+          "itemTax": 500
+        }
+      ],
+      "grandTotalWithoutTax": 81000,
+      "grandTotalWithTax": 85100
+    },
+    {
+      "id": 3,
+      "storeName": "GadgetWorld",
+      "orderId": "INV-003",
+      "date": "2025-03-08",
+      "items": [
+        {
+          "itemName": "Tablet",
+          "quantity": 1,
+          "regularPrice": 30000,
+          "dealPrice": 28000,
+          "itemTotal": 28000,
+          "itemTax": 1400
+        },
+        {
+          "itemName": "Wireless Keyboard",
+          "quantity": 1,
+          "regularPrice": 3500,
+          "dealPrice": 3200,
+          "itemTotal": 3200,
+          "itemTax": 200
+        }
+      ],
+      "grandTotalWithoutTax": 31200,
+      "grandTotalWithTax": 32800
+    },
+    {
+      "id": 4,
+      "storeName": "TechBazaar",
+      "orderId": "INV-004",
+      "date": "2025-03-09",
+      "items": [
+        {
+          "itemName": "Gaming Console",
+          "quantity": 2,
+          "regularPrice": 40000,
+          "dealPrice": 38000,
+          "itemTotal": 76000,
+          "itemTax": 3800
+        },
+        {
+          "itemName": "Joystick",
+          "quantity": 3,
+          "regularPrice": 3000,
+          "dealPrice": 2800,
+          "itemTotal": 8400,
+          "itemTax": 500
+        }
+      ],
+      "grandTotalWithoutTax": 84400,
+      "grandTotalWithTax": 88700
+    },
+    {
+      "id": 5,
+      "storeName": "Digital Store",
+      "orderId": "INV-005",
+      "date": "2025-03-10",
+      "items": [
+        {
+          "itemName": "Smartwatch",
+          "quantity": 4,
+          "regularPrice": 10000,
+          "dealPrice": 9500,
+          "itemTotal": 38000,
+          "itemTax": 2000
+        },
+        {
+          "itemName": "Bluetooth Speaker",
+          "quantity": 2,
+          "regularPrice": 7000,
+          "dealPrice": 6500,
+          "itemTotal": 13000,
+          "itemTax": 800
+        }
+      ],
+      "grandTotalWithoutTax": 51000,
+      "grandTotalWithTax": 53800
+    }
+  ]
+}
