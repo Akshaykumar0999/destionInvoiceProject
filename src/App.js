@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/invoices" element={<InvoiceList />} />
+          <Route path="/" element={<InvoiceList />} />
           <Route path="/products" element={<ProductList />} />
         </Routes>
       </BrowserRouter>

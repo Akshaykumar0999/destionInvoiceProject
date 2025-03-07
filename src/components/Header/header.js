@@ -25,7 +25,7 @@ function Header() {
           <Nav className="me-auto">
             <NavLink
               className="header-routes-text"
-              to={"/invoices"}
+              to={"/"}
               // style={{ color: "#ffffff" }}
             >
               Invoice
