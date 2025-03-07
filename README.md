@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Ecommerce Inventory
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based inventory management system for eCommerce businesses, allowing users to manage invoices, track orders, and view transaction details efficiently.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- 📄 **Invoice Management** – Create, store, and manage invoices easily.
+- 📊 **Order Tracking** – Track orders with details like item name, quantity, price, and tax.
+- 🔍 **Search & Filter** – Search invoices by date and item name.
+- 📈 **Dynamic Totals** – Auto-calculates total price, including tax.
+- 💻 **Responsive UI** – Built with Bootstrap for a mobile-friendly experience.
+- 🔗 **API Integration** – Uses Axios to fetch and update invoices from a mock API.
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js** – Frontend framework for building UI components.
+- **React Router** – Manages navigation and routing.
+- **Bootstrap** – Provides a clean and responsive UI design.
+- **React Icons** – Used for UI enhancements and icons.
+- **Axios** – Handles API requests and data fetching.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 Installation & Setup
 
-### `npm test`
+Follow these steps to set up the project locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh
+# Clone the repository
+git clone https://github.com/your-username/ecommerce-inventory.git
 
-### `npm run build`
+# Navigate to the project directory
+cd ecommerce-inventory
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Install dependencies
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Start the development server
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app will run on `http://localhost:3000/`.
 
-### `npm run eject`
+## 📂 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+📦 ecommerce-inventory
+ ┣ 📂 src
+ ┃ ┣ 📂 components
+ ┃ ┃ ┣ 📜 InvoiceList.js
+ ┃ ┃ ┣ 📜 InvoiceDetails.js
+ ┃ ┃ ┗ 📜 Navbar.js
+ ┃ ┣ 📂 pages
+ ┃ ┃ ┣ 📜 Home.js
+ ┃ ┃ ┗ 📜 NotFound.js
+ ┃ ┣ 📜 App.js
+ ┃ ┣ 📜 index.js
+ ┗ 📜 package.json
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ API Endpoints
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The project uses a mock API for handling invoice data:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **GET** `/invoices` – Fetch all invoices.
+- **POST** `/invoices` – Add a new invoice.
 
-## Learn More
+Example API URL: `https://mock-apis-wjjq.onrender.com/invoices`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Contribution Guide
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`
+3. Make your changes and commit: `git commit -m "Added new feature"`
+4. Push changes: `git push origin feature-name`
+5. Open a pull request.
 
-### Code Splitting
+## 📜 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the **MIT License**.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
